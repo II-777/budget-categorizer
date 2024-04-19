@@ -6,7 +6,7 @@ This repository contains a Python script (`budget_categorizer.py`) for financial
 
 - **Automatic Tagging**: The script categorizes transactions based on keywords specified in the `update_tags()` function. You can customize these keywords to suit your preferences.
 - **Expense/Income Differentiation**: Transactions are tagged with `#expense` or `#income` based on their nature.
-- **Excel Template**: The Excel template (`budget-template.xlsx`) provides a structured format for entering transaction data.
+- **Excel Template**: The Excel template (`budget-template.xlsx`) provides a structured format for tracking and visualizaton of transaction data.
 
 ## Usage
 
