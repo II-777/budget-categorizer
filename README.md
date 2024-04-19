@@ -27,14 +27,18 @@ This repository contains a Python script (`budget_categorizer.py`) for financial
    cd personal-budget-tracker
    ```
 
-3. Update the `transactions.csv` file with your financial data. Make sure to follow the provided format (`Date; Description; Expense; Income`) and include all relevant transactions.
+3. Save transactions from your bank account as `transactions.csv`. Make sure to follow the provided format (`Date; Description; Expense; Income`).
 
-4. Run the Python script to analyze the transactions and generate tags. Redirect the output to a file (e.g., `out.csv`).
+4. Ajust the `keyword_mapping` dictionary in the `budget-categorizer.py` according to your preference.
+
+5. Run the Python script to analyze the transactions and generate tags. Redirect the output to a file (e.g., `out.csv`).
    ```bash
    ./budget-categorizer.py > out.csv
    ```
 
-5. Review the tagged transactions saved in the `out.csv` file.
+6. Copy the unique category names from `out.csv` into the `budget-template.xls`
+   
+8. Copy the tagged transactions saved in the `out.csv` file into the `budget-template.xlsx`.
 
 ## Customization
 
