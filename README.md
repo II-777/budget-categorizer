@@ -1,4 +1,4 @@
-# Personal Budget Categorizer
+# Budget Categorizer
 
 This repository contains a Python script (`budget_categorizer.py`) for financial transactions classification and tagging, along with an Excel template (`budget-template.xlsx`) for organizing your personal budget. The script helps categorize expenses and incomes based on predefined keywords and generates tags accordingly.
 
